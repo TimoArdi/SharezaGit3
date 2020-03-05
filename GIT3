@@ -1,52 +1,18 @@
-wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git log
-commit 8be4e1e15f14c4caa030f265872a737655c54584 (HEAD -> master)
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:57:26 2020 +0100
-
-    add p shareza
-
-commit 077be4a3b2f2a70827ba9582765e920a780af305
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:53:53 2020 +0100
-
-    Creation Title
-
-commit af47103870d52474433440e7d2e05e18c50dd42f
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:52:33 2020 +0100
-
-    add html
+wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git log --oneline
+777342d (HEAD -> master) add li shareza
+6c4909d Revert "add p shareza"
+8be4e1e add p shareza
+077be4a Creation Title
+af47103 add html
 wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git revert HEAD
-[master 6c4909d] Revert "add p shareza"
+[master 7a0d45b] Revert "add li shareza"
  1 file changed, 1 insertion(+), 1 deletion(-)
 wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git add index.html 
-wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git status
-On branch master
-nothing to commit, working tree clean
-wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git log
-commit 6c4909da4907e8cb8f72e7f97b296af89af4e101 (HEAD -> master)
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:58:30 2020 +0100
-
-    Revert "add p shareza"
-    
-    This reverts commit 8be4e1e15f14c4caa030f265872a737655c54584.
-
-commit 8be4e1e15f14c4caa030f265872a737655c54584
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:57:26 2020 +0100
-
-    add p shareza
-
-commit 077be4a3b2f2a70827ba9582765e920a780af305
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:53:53 2020 +0100
-
-    Creation Title
-
-commit af47103870d52474433440e7d2e05e18c50dd42f
-Author: TimoArdi <t.ardilouze@gmail.com>
-Date:   Thu Mar 5 12:52:33 2020 +0100
-
-    add html
+wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ git log --oneline
+7a0d45b (HEAD -> master) Revert "add li shareza"
+777342d add li shareza
+6c4909d Revert "add p shareza"
+8be4e1e add p shareza
+077be4a Creation Title
+af47103 add html
 wilder@wilder-ThinkPad-T440p:~/quetes/GitQuetes/sharezza-oops$ 
